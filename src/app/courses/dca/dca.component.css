@@ -1,0 +1,14 @@
+.full-dca{
+    height: 100vh;
+    width: 100%;
+    background-color: lightblue;
+    transition: 0.5s;
+}
+.one{
+    height: 100vh;
+    background-color: blueviolet;
+}
+.two{
+    height: 100vh;
+    background-color: brown;
+}

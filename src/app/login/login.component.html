@@ -1,0 +1,68 @@
+<div class="loginforms">
+    <div class="form-box">
+        <div class="buttons-box">
+            <div id="btns"></div>
+            <button type="button" class="toggle-btn" (click)="callfunone()">login</button>
+            <button type="button" class="toggle-btn" (click)="callfuntwo()">register</button>
+
+            <form [formGroup]="Loginform" class="form-group" class="input-grp" id="login">
+                <input type="text" placeholder="username" formControlName="username" name="username"
+                    class="form-control" [class.is-invalid]="Loginform.get('username').invalid && Loginform.get('username').touched ">
+                <small [class.d-none]="Loginform.get('username').valid || Loginform.get('username').untouched "
+                    class="text-danger">username is requied</small>
+            
+            
+                <input type="password" placeholder="password" formControlName="password" name="password"
+                    class="form-control"
+                    [class.is-invalid]="Loginform.get('password').invalid && Loginform.get('password').touched ">
+                <small [class.d-none]="Loginform.get('password').valid || Loginform.get('password').untouched"
+                    class="text-danger">Password must have 6 digits</small>
+            
+            
+                <p>dont you have account yet?<a href="#">Register</a></p>
+            
+                <button [disabled]="!Loginform.valid" class="btn btn-success">login</button>
+            </form>
+
+  <!------------------------------------------------------------------------------------------------------------->          
+
+            <form [formGroup]="Signupform" class="form-group" class="input-grp" id="register">
+
+                <input [class.is-invalid]="Signupform.get('username').touched && Signupform.get('username').invalid" type="text"
+                placeholder="username" formControlName="username" name="username" class="form-control">
+            
+                <div *ngIf="Signupform.get('username').touched && Signupform.get('username').invalid">
+                   <small *ngIf="Signupform.get('username').errors['required']"  
+                   class="text-danger">username is required</small>
+            
+                   <small *ngIf="Signupform.get('username').errors['minlength']"  
+                   class="text-danger">username must be atleast 3 charecters</small>
+               </div>
+                    
+               <input type="email" name="" value="" placeholder="Email" formControlName="email" name="email"
+               class="form-control" [class.is-invalid]="Signupform.get('email').invalid && Signupform.get('email').touched ">
+               <small [class.d-none]="Signupform.get('email').valid || Signupform.get('email').untouched " class="text-danger">Email is requied</small>
+            
+               <input [class.is-invalid]="Signupform.get('password').touched && Signupform.get('password').invalid" type="password"
+               placeholder="password" formControlName="password" name="password" class="form-control">
+            
+               <div *ngIf="Signupform.get('password').touched && Signupform.get('password').invalid">
+                  <small *ngIf="Signupform.get('password').errors['required']"  
+                  class="text-danger">password is required</small>
+            
+                  <small *ngIf="Signupform.get('password').errors['minlength']"  
+                  class="text-danger">password must be atleast 6 charecters</small>
+              </div>
+                <p>Already have accont?<a routerLink="/Login">Login</a></p>
+            
+                <button class="btn btn-success" [disabled]="!Signupform.valid">Register</button>
+                </form>
+            
+
+
+        </div>
+</div>
+</div>
+
+
+
