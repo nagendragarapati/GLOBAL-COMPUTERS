@@ -11,7 +11,6 @@ import {ReactiveFormsModule} from '@angular/forms';
 import { CoursesComponent } from './courses/courses.component';
 import { DCAComponent } from './courses/dca/dca.component';
 import { DtpComponent } from './courses/dtp/dtp.component';
-import { TallyComponent } from './tally/tally.component';
 import { PhotoshopComponent } from './courses/photoshop/photoshop.component';
 import { PagemakerComponent } from './courses/pagemaker/pagemaker.component';
 import { CComponent } from './courses/c/c.component';
@@ -20,6 +19,7 @@ import { PythonComponent } from './courses/python/python.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomesectionComponent } from './homesection/homesection.component';
 import { RescourseComponent } from './rescourse/rescourse.component';
+import {TallyComponent} from './courses/tally/tally.Component';
 
 
 
@@ -35,7 +35,6 @@ import { RescourseComponent } from './rescourse/rescourse.component';
     CoursesComponent,
     DCAComponent,
     DtpComponent,
-    TallyComponent,
     PhotoshopComponent,
     PagemakerComponent,
     CComponent,
@@ -44,6 +43,7 @@ import { RescourseComponent } from './rescourse/rescourse.component';
     ContactComponent,
     HomesectionComponent,
     RescourseComponent,
+    TallyComponent
 
   ],
   imports: [

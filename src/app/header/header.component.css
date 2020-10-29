@@ -58,7 +58,7 @@ margin:40px 30px 0px 0px;;
 }
   .sidepanel{
     display: none;
-    background-color: black;
+    background-color: #0187e6;
     margin-top: 0px;
     overflow-x: hidden;
     width: 100%;
@@ -68,6 +68,8 @@ margin:40px 30px 0px 0px;;
   .sidepanel a {
     display: block;
     text-align: center;
+    color: #2d2f31;
+
   }
 
 }

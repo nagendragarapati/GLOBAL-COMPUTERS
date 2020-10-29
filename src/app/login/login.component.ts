@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, NgForm} from '@angular/forms';
 declare const login:any;
-declare const register:any;
 
 
 
@@ -12,16 +11,11 @@ declare const register:any;
 })
 export class LoginComponent implements OnInit {
   Loginform:FormGroup;
-  Signupform:FormGroup;
-
 
   callfunone(){
     login();
   };
 
-  callfuntwo(){
-    register();
-  };
 
  
 
@@ -35,22 +29,11 @@ export class LoginComponent implements OnInit {
       'password':[null, [Validators.required,Validators.minLength(6)] ],
     });
 
-    this.Signupform=this.fb.group({
-      username:[null, [Validators.required,Validators.minLength(3)]],
-      email:[null, [Validators.required, Validators.email]],
-      password:[null, [Validators.required,Validators.minLength(6)]],
-
-
-    });
-
   }
   Login(formData:NgForm){
     console.log(formData);
   }
 
-  Signup(formData:NgForm){
-    console.log(formData);
-  }
 
 
   }

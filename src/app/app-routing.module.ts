@@ -7,7 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { CoursesComponent } from './courses/courses.component';
 import { DCAComponent } from './courses/dca/dca.component';
 import { DtpComponent } from './courses/dtp/dtp.component';
-import { TallyComponent } from './tally/tally.component';
+import {TallyComponent} from './courses/tally/tally.Component';
 import { PhotoshopComponent } from './courses/photoshop/photoshop.component';
 import { PagemakerComponent } from './courses/pagemaker/pagemaker.component';
 import { CComponent } from './courses/c/c.component';

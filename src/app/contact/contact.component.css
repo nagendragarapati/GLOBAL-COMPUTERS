@@ -1,12 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .contact-sec{
     height: 100%;
     width: 100%;
-}
-.address-sec{
-    height: 500px;
-    background-color: wheat;
-}
-.form-sec{
-    background-color: rgb(29, 136, 230);
+    background-color: rgb(191, 222, 250);
+
 }
 
+.address{
+    padding: 50px;
+}
+.address h1{
+text-transform: capitalize;
+margin-bottom: 20px;
+}
+.address h5{
+font-size: 15px;
+line-height: 27px;
+}
+.address button{
+    text-transform: uppercase;
+    padding: 0px 10px 5px 10px;
+    border: none;
+    color: #fff;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 30px;}
+.address p{
+margin-top: 8px;
+margin-left: 31px;
+}
+
+
+.contactform{
+    padding: 50px;
+}
+.contactform p{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.contactform input[type=email],input[type=number],input[type=text]{
+text-transform: capitalize;
+font-size: 17px;
+margin-bottom: 40px;
+border: none;
+display: block;
+width: 50%;
+
+}
+.contactform textarea,select{
+    text-transform: capitalize;
+    font-size: 17px;
+    border: none;
+    display: block;
+    margin-top: 30px;
+    width: 50%;
+    text-align: center;
+}
+.contactform input[type=submit]{
+    margin: 30px auto;
+    padding: 5px 30px;
+}
+.form-sec{
+    background-color: blue;
+}
+
+
+
+@media only screen and (max-width:992px){
+    .contactform input[type=email],input[type=number],input[type=text]{
+
+        width: 70%;
+    }
+    .contactform textarea,select{
+
+        width: 70%;
+    }
+    .contactform button{
+        margin-top: 0px;
+        margin-left: 0px;
+        padding: 2px 30px;
+    }
+    
+
+}

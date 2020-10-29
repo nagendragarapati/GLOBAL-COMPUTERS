@@ -1,132 +1,74 @@
-
-
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
 .loginforms{
-    width: 100%;
-    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(../../assets/images/logback2.png);
-    background-position: center;
-    background-size: cover;
     height: 100%;
-    z-index:1;
-    
-
+    background-color: white;
+}
+.login-firstsec img{
+    height: 500px;
+    width: auto;
 }
 .form-box{
-    width: 400px;
-    height: 70vh;
-    margin:auto;
-    background: #811b7c50;
-    padding: 5px;
-    overflow: hidden;
+    margin: auto;
 }
-.buttons-box{
-    width: 220px;
-    height: 30px;
-    margin: 35px auto;
-    position: relative;
-    box-shadow: 0 0 10px 5px #4705fdcc;
-    border-radius: 30px;
-}
-.toggle-btn{
-    padding: 3px 30px;
-    cursor: pointer;
-    background: transparent;
-    border: 0;
-    outline: none;
-    position: relative;
-    color: white;
+.form-box h1{
+    margin: auto;
+    text-align: center;
+    font-family: ui-rounded;
     text-transform: capitalize;
+    color: darkred;
+    margin-bottom: 60px;
 }
-#btns{
+.form-box input[type=text],input[type=password]{
+    width: 30%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    text-transform: capitalize;
+    border: 1px solid;
+}
+.form-box input[type=submit]{
+
+    margin: auto;
+    display: flex;
+    padding: 5px 20px;
+    margin-bottom: 30px;
+}
+.form-box small{
+    margin-left: 35%;
+    display: flex;
     top: 0;
-    left: 0;
-    position: absolute;
-    width: 110px;
-    height: 100%;
-    background-color: #c25574;
-    border-radius: 30px;
-    transition: 0.5s;
-}
-.input-grp{
-    top: 100px;
-    position: absolute;
-    width: 230px;
-    transition: 0.5s;
-}
-.loginforms form input[type=text]{
-    border-radius: 20px;
-    border: none;
-    text-align: center;
-    width: 200px;
-    margin-bottom: 10px;
-    text-transform: capitalize;
-    }
-    
-.loginforms form input[type=password]{
-    border-radius: 20px;
-    border: none;
-    text-align: center;
-    width: 200px;
-    margin-bottom: 10px;
-    text-transform: capitalize;
-    }
-    
-.loginforms form button{
-border-radius: 18px;
-padding: 5px 25px;
-cursor: pointer;
-box-shadow: 0px 5px 0px #77a4c3;
-transition: all 0.3s;
-margin: 20px 60px;
-
-}
-
-.loginforms form input[type=email]{
-	margin-top: 10px;
-	border-radius: 20px;
-	border: none;
-	text-align: center;
-    width: 200px;
-    margin-bottom: 10px;
-    text-transform: capitalize;
-
-}
-
-.loginforms form button:active{
-    background-color: #2196f3;
-    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3 ;
-    color: #fff;
-}
-
-.loginforms form p{ 
-
-    font-size: 17px;
-    text-transform: capitalize;
-    color: white;
-    width: 120%;
-}
-.loginforms form button:active{
-	box-shadow:0px 0px 0px #0d2cf5;
-}
-
-
-#register{
-    left: 450px;
 }
 
 @media only screen and (max-width:992px){
-    .form-box{
-    margin:  auto;
-    width: 340px;
-    height: 60vh;
+    .form-box input[type=text],input[type=password]{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .card-section{
+        margin: auto;
+        width: auto;
+        height: auto;
     }
 }
 
 @media only screen and (max-width:479px){
-    .form-box{
-        margin:  auto;
-        width: 340px;
-        height: 100vh;
-    }    
+    .form-box input[type=text],input[type=password]{
+        width: 70%;
+    }
+    .form-box small{
+        margin-left: 20%;
+        display: flex;
 }
-
-
+}
