@@ -5,6 +5,8 @@
 
 .total{
     height: 100vh;
+    margin-top: 168px;
+
   }
   .sidenav {
     height:100vh;
@@ -54,7 +56,13 @@
        }
        .topnav{
          display: block;
+         margin-top: 168px;
        }
+       .total{
+        margin-top: 0px;
+    
+      }
+    
     
     
     }

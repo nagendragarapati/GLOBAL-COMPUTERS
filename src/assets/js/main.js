@@ -1,19 +1,3 @@
-var x=document.getElementById("login");
-var y=document.getElementById("register");
-var z=document.getElementById("btns");
-
-function register(){
-    document.getElementById("login").style.left="-400px";
-    document.getElementById("register").style.left="0px";
-    document.getElementById("btns").style.left="110px";
-}
-
-function login(){
-    document.getElementById("login").style.left="0px";
-    document.getElementById("register").style.left="400px";
-    document.getElementById("btns").style.left="0px";
-}
-
 var string="Nagendra & Sai Krishna...";
 var strArray=string.split();
 
@@ -47,6 +31,19 @@ $(document).ready(function(){
     $("#panel").slideToggle("slow");
   });
 });
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "18px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "60px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}
 
 
 

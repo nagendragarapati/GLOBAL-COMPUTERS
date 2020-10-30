@@ -9,6 +9,8 @@ img {
 .loginforms{
     height: 100%;
     background-color: white;
+    margin-top: 168px;
+
 }
 .login-firstsec img{
     height: 500px;
@@ -22,8 +24,8 @@ img {
     text-align: center;
     font-family: ui-rounded;
     text-transform: capitalize;
-    color: darkred;
-    margin-bottom: 60px;
+    color: rgb(9, 48, 223);
+    margin-bottom: 30px;
 }
 .form-box input[type=text],input[type=password]{
     width: 30%;
@@ -61,6 +63,12 @@ img {
         width: auto;
         height: auto;
     }
+    .login-firstsec img{
+        display: flex;
+        margin: auto;
+        height: 300px;
+    }
+        
 }
 
 @media only screen and (max-width:479px){
@@ -71,4 +79,5 @@ img {
         margin-left: 20%;
         display: flex;
 }
+
 }
