@@ -13,6 +13,10 @@ import { PagemakerComponent } from './courses/pagemaker/pagemaker.component';
 import { CComponent } from './courses/c/c.component';
 import { JavaComponent } from './courses/java/java.component';
 import { PythonComponent } from './courses/python/python.component';
+import { PowerpointComponent } from './courses/powerpoint/powerpoint.component';
+import { CplusplusComponent } from './courses/cplusplus/cplusplus.component';
+import { CsharpComponent } from './courses/csharp/csharp.component';
+import { DotnetComponent } from './courses/dotnet/dotnet.component';
 
 
 
@@ -27,15 +31,16 @@ const routes: Routes = [
     {path:'Dca', component:DCAComponent},
     {path:"", redirectTo:'Dca' , pathMatch:'full'},
     {path:'Dtp', component:DtpComponent},
+    {path:'Powerpoint', component:PowerpointComponent},
     {path:'Tally', component:TallyComponent},
     {path:'Photoshop', component:PhotoshopComponent},
     {path:'C', component:CComponent},
+    {path:'Cplusplus', component:CplusplusComponent},
+    {path:'Csharp', component:CsharpComponent},
+    {path:'Dotnet', component:DotnetComponent},
     {path:'Java', component:JavaComponent},
     {path:'Python', component:PythonComponent},
     {path:'Pagemaker', component:PagemakerComponent},
-
-    
-
 ]
 },
 

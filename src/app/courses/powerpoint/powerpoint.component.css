@@ -8,28 +8,28 @@ img{
     height: auto;
 }
 
-.full-dtp{
+.full-powerpoint{
     height: 100vh;
     background-color: #ecf3fd;
     overflow-y: scroll;
 }
-.full-dtp h1{
+.full-powerpoint h1{
     text-transform: capitalize;
     text-align: center;
     font-weight: bold;
 }
-.dtp-imgsec{
+.powerpoint-imgsec{
 
 padding: 30px;
 }
-.dtp-imgsec img{
+.powerpoint-imgsec img{
     height: 350px;
     width: 650px;
 }
-.dtp-papasec{
+.powerpoint-papasec{
     padding: 30px;
 }
-.dtp-papasec p{
+.powerpoint-papasec p{
     line-height: 40px;
     text-align: inherit;
     font-size: 18px;

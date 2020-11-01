@@ -7,7 +7,7 @@
     height: 100%;
     width: 100%;
     background-color: rgb(191, 222, 250);
-    margin-top: 168px;
+    margin-top: 137px;
 
 
 }
@@ -89,6 +89,11 @@ width: 50%;
         margin-left: 0px;
         padding: 2px 30px;
     }
+    .contact-sec{
+
+        margin-top: 137px;
+    }
+
     
 
 }

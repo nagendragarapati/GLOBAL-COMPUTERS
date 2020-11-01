@@ -10,10 +10,7 @@ img{
     width: 100%;
     z-index: 1;
     top: 200px;
-    margin-top: 168px;
-
-
-    
+    margin-top: 137px;
 }
 .banner-sec{
     height: 400px;
@@ -38,11 +35,18 @@ img{
     background-color: #ecf5fc;
 
 }
+.containercards-sec h1{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
 .cards{
-    height: 350px;
+    height: 430px;
     width: 300px;
     border-radius: 10px;
-    margin: 100px auto;
+    margin: 100px auto 20px auto;
     position: relative;
     box-shadow: inset 5px 5px 5px rgba(0,0,0,.2),
                 inset -5px -5px 15px rgba(255,255,255,.1),
@@ -50,45 +54,71 @@ img{
                 -5px -5px 15px rgba(255,255,255,.1);
                 cursor: pointer;
                 transition: 0.5s;
-                background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4));
+                background: linear-gradient(rgba(39, 107, 235,0.7),rgba(0,0,0));
                 background-position: center;
                 background-size: cover;
             
 }
-.cards:hover{
-    transform:translateY(-30px);
-    box-shadow: 0 20px 40px rgba(255,255,255,.5);
+.cards:hover .img-sec{
+    padding: 0px;
+    transition: 0.5s;
+    font-size: 15px;
 }
+.cards:hover .img-sec h1{
+    font-size: 20px;
+    transition: 0.5s;
+    font-weight: bold;
+
+}
+
 .img-sec{
     height: 150px;
-    width: 240px;
-    background-color:white;
+    width: 200px;
     border-radius: 10px;
     position: absolute;
     top: -50px;
-    margin-left: 30px;
+    margin-left: 50px;
     box-shadow: inset 5px 5px 5px rgba(0,0,0,.2),
     inset -5px -5px 15px rgba(255,255,255,.1),
     5px 5px 15px rgba(0,0,0,.3),
     -5px -5px 15px rgba(255,255,255,.1);
-
-
+    padding: 10px;
+    background: linear-gradient(rgba(48, 4, 243, 0.7),rgba(0,0,0));
+    transition: 0.5s;
 }
 .img-sec img{
     height: 150px;
-    width: 240px;
+    width: 200px;
     border-radius: 10px;
 }
+.img-sec h1{
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    font-family: revert;
+    padding: 12px;
+    transition: 0.5s;
+
+}
 .content-sec{
-    padding-top: 160px;
-    width: 70%;
-    margin-left: 30px;
-    margin: auto;
+    padding-top: 150px;
+}
+.content-sec ul{
+
+    padding-left: 50px;
 }
 .content-sec ul li{
-    color:#fff;
+    color: #fff;
     list-style-type: circle;
-    
+    line-height: 2.5;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 3px;    
+}
+.view{
+    color: blue;
+    text-transform: capitalize;
+    font-size: 15px;
 }
 
 
@@ -100,6 +130,10 @@ img{
 }
 .container-sec{
 }
+.home-sec{
+    margin-top: 137px;
+}
+
 
 
 

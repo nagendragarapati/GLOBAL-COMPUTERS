@@ -9,7 +9,7 @@ img {
 .loginforms{
     height: 100%;
     background-color: white;
-    margin-top: 168px;
+    margin-top: 137px;
 
 }
 .login-firstsec img{
@@ -54,6 +54,10 @@ img {
 @media only screen and (max-width:992px){
     .form-box input[type=text],input[type=password]{
         width: 50%;
+    }
+    .loginforms{
+
+        margin-top: 137px;
     }
 }
 

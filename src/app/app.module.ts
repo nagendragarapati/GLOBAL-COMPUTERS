@@ -17,9 +17,12 @@ import { CComponent } from './courses/c/c.component';
 import { JavaComponent } from './courses/java/java.component';
 import { PythonComponent } from './courses/python/python.component';
 import { ContactComponent } from './contact/contact.component';
-import { HomesectionComponent } from './homesection/homesection.component';
 import { RescourseComponent } from './rescourse/rescourse.component';
 import {TallyComponent} from './courses/tally/tally.Component';
+import { PowerpointComponent } from './courses/powerpoint/powerpoint.component';
+import { CplusplusComponent } from './courses/cplusplus/cplusplus.component';
+import { CsharpComponent } from './courses/csharp/csharp.component';
+import { DotnetComponent } from './courses/dotnet/dotnet.component';
 
 
 
@@ -41,9 +44,12 @@ import {TallyComponent} from './courses/tally/tally.Component';
     JavaComponent,
     PythonComponent,
     ContactComponent,
-    HomesectionComponent,
     RescourseComponent,
-    TallyComponent
+    TallyComponent,
+    PowerpointComponent,
+    CplusplusComponent,
+    CsharpComponent,
+    DotnetComponent
 
   ],
   imports: [

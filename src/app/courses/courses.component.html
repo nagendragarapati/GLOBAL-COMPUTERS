@@ -9,16 +9,34 @@
     <div class="row">
   
       <div class="col-xs-3 col-sm-3 col-md-3 col-lg-2 sidenav">
-        <h2>list of courses</h2>
-        <a routerLink="Dca">DCA</a>
-        <a routerLink="Dtp">DTP</a>
-        <a routerLink="Tally">TALLY</a>
-        <a routerLink="Photoshop">PHOTOSHOP</a>
-        <a routerLink="Pagemaker">PAGE MAKER</a>
-        <a routerLink="C"> C, C++</a>
-        <a routerLink="Java">JAVA</a>
-        <a routerLink="Python">PYTHON</a>
+        <h1>list of courses</h1>
 
+        <p><i class='fas fa-graduation-cap' style='font-size:24px'></i>diploma in computer application:</p>
+        <ul>
+          <li><a routerLink="Dca">ms word</a></li>
+          <li><a routerLink="Dtp">ms excel</a></li>
+          <li><a routerLink="Powerpoint">ms powerpoint</a></li>
+
+        </ul>
+        <p><i class='fas fa-user-graduate' style='font-size:24px'></i>post graduation in computer application:</p>
+        <ul>
+          <li><a routerLink="C"> C language</a></li>
+          <li><a routerLink="Cplusplus">C++</a></li>
+          <li><a routerLink="Csharp">C#</a></li>
+          <li><a routerLink="Dotnet">.NET</a></li>
+          <li><a routerLink="Java">JAVA</a></li>
+          <li><a routerLink="Python">PYTHON</a></li>
+
+        </ul>
+        <p>others<i class='far fa-hand-point-down' style='font-size:24px'></i></p>
+
+        <ul>
+          <li><a routerLink="Tally">TALLY</a></li>
+          <li> <a routerLink="Photoshop">PHOTOSHOP</a></li>
+          <li><a routerLink="Pagemaker">PAGE MAKER</a></li>
+
+        </ul>
+        
       </div>
       <div class="col-xs-9 col-sm-9 col-md-9 col-lg-10 sai">
         <router-outlet></router-outlet>
