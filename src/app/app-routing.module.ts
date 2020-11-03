@@ -17,6 +17,8 @@ import { PowerpointComponent } from './courses/powerpoint/powerpoint.component';
 import { CplusplusComponent } from './courses/cplusplus/cplusplus.component';
 import { CsharpComponent } from './courses/csharp/csharp.component';
 import { DotnetComponent } from './courses/dotnet/dotnet.component';
+import { NotfoundComponent } from './notfound/notfound.component';
+
 
 
 
@@ -25,6 +27,8 @@ const routes: Routes = [
   {path:'Home', component:HomeComponent},
   {path:'Contact', component:ContactComponent},
   {path:'Login', component:LoginComponent},
+  {path:'404', component: NotfoundComponent},
+
   
   {path:'Courses', component:CoursesComponent,
   children:[
@@ -42,7 +46,10 @@ const routes: Routes = [
     {path:'Python', component:PythonComponent},
     {path:'Pagemaker', component:PagemakerComponent},
 ]
+
 },
+
+
 
 ];
 

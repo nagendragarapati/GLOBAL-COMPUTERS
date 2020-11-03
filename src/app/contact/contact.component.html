@@ -1,6 +1,5 @@
 <div class="contact-sec">
     <div class="row">
-        
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 address">
             <h1>get in touch with us</h1>
             <h5>District Informatics Officer
@@ -16,8 +15,9 @@
         </div>
 
        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 contactform">
+        <form [formGroup]="contactform" class="form-group">
            <p>send a query</p>
-            <input type="text" placeholder="your name" required class="form-control">
+            <input type="text" placeholder="your name" required class="form-control" formControlName="name" name="name">
             <input type="email" placeholder="your email" required class="form-control">
             <input type="number" placeholder="mobile number" required class="form-control">
             <select class="form-control">
@@ -35,6 +35,8 @@
     
             <textarea placeholder="message" class="form-control"></textarea>
             <input type="submit" class="btn btn-primary">
+        </form>
+
 
         </div>
     </div>

@@ -27,6 +27,8 @@ img{
 }
 .container-sec{
     width: 100%;
+    display: flex;
+    margin: 1px auto;
     
 }
 .containercards-sec{

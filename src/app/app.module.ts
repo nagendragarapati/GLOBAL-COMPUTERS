@@ -23,6 +23,7 @@ import { PowerpointComponent } from './courses/powerpoint/powerpoint.component';
 import { CplusplusComponent } from './courses/cplusplus/cplusplus.component';
 import { CsharpComponent } from './courses/csharp/csharp.component';
 import { DotnetComponent } from './courses/dotnet/dotnet.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 
 
@@ -49,7 +50,8 @@ import { DotnetComponent } from './courses/dotnet/dotnet.component';
     PowerpointComponent,
     CplusplusComponent,
     CsharpComponent,
-    DotnetComponent
+    DotnetComponent,
+    NotfoundComponent
 
   ],
   imports: [
