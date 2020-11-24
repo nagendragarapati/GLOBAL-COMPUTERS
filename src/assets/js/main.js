@@ -1,24 +1,11 @@
-var string="Nagendra & Sai Krishna...";
-var strArray=string.split();
 
-function animate(){
-	if(strArray.length > 0){
-		document.getElementById("animation").innerHTML += strArray.shift();
-	}
-	else{
-document.getElementById("animation").innerHTML="";
-	 strArray=string.split("");
-		}
-		setTimeout(animate,250);
 
-}
-
-function nagendra(){
-window.scrollTo(0,350);
+function scroll(){
+window.scrollTo(0,345);
 }
 
 
-function maya(){
+function vanish(){
   var x = document.getElementById("panel");
   if (x.style.display === "block") {
     x.style.display = "none";

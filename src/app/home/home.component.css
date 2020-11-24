@@ -13,12 +13,11 @@ img{
     margin-top: 137px;
 }
 .banner-sec{
-    height: 400px;
+    height: 500px;
     width: 100%;
-    background-color: blanchedalmond;
 }
 .carousel-item{
-    height: 400px;
+    height: 500px;
     width: 100%;
 }
 .carousel-item img{
@@ -33,8 +32,8 @@ img{
 }
 .containercards-sec{
     padding: 0px 5%;
-    background-color:#edebeb;
     background-color: #ecf5fc;
+    background-color: #fff;
 
 }
 .containercards-sec h1{
@@ -45,8 +44,8 @@ img{
     font-family: 'Times New Roman', Times, serif;
 }
 .cards{
-    height: 430px;
-    width: 300px;
+    height: 350px;
+    width: 280px;
     border-radius: 10px;
     margin: 100px auto 20px auto;
     position: relative;
@@ -74,8 +73,8 @@ img{
 }
 
 .img-sec{
-    height: 150px;
-    width: 200px;
+    height: 120px;
+    width: 180px;
     border-radius: 10px;
     position: absolute;
     top: -50px;
@@ -85,12 +84,12 @@ img{
     5px 5px 15px rgba(0,0,0,.3),
     -5px -5px 15px rgba(255,255,255,.1);
     padding: 10px;
-    background: linear-gradient(rgba(48, 4, 243, 0.7),rgba(0,0,0));
+    background: linear-gradient(rgba(42, 42, 43, 0.7),rgba(0,0,0));
     transition: 0.5s;
 }
 .img-sec img{
-    height: 150px;
-    width: 200px;
+    height: 120px;
+    width: 180px;
     border-radius: 10px;
 }
 .img-sec h1{
@@ -103,7 +102,7 @@ img{
 
 }
 .content-sec{
-    padding-top: 150px;
+    padding-top: 120px;
 }
 .content-sec ul{
 
@@ -128,17 +127,9 @@ img{
 
 @media only screen and (max-width:992px){
     
-.containercards-sec{
-}
-.container-sec{
-}
 .home-sec{
     margin-top: 137px;
 }
-
-
-
-
 
 }
 

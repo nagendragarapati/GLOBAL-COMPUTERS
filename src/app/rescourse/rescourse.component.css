@@ -27,7 +27,7 @@ img{
 
 }
 .fullsec{
-background-color: #ebaf0ab6;
-height: 100%;
+    background-color: rgb(40, 43, 46);
+    height: 100%;
 transition: 0.5s;
 }

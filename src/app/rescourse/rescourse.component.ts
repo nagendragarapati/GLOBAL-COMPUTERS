@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-declare const nagendra:any;
+declare const scroll:any;
 
 @Component({
   selector: 'app-rescourse',
@@ -9,7 +9,7 @@ declare const nagendra:any;
 export class RescourseComponent implements OnInit {
 
   callfun(){
-    nagendra();
+    scroll();
   }
   constructor() { }
 
