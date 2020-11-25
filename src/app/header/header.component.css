@@ -32,11 +32,11 @@ img{
 
 
 #navbar #logo {
-  font-size: 35px;
+  font-size: 20px;
   font-weight: bold;
   transition: 0.4s;
   text-transform: capitalize;
-  margin-left: 5%;
+  margin-left: 25%;
 }
 
 
@@ -51,20 +51,21 @@ img{
 
 
 .navbar-right {
-  top: 0px;
-  left: 400px;
+  margin-top: 10px;
 }
 
 .toggle{
   display: none;
   color: #fff;
   margin-right: 50px;
+  margin-top: 10px;
+}
+nav{
+  text-align: end;
+  margin-right: 80px;
 }
 
-.profile{
-	display: inline-block;
 
-}
 
 
 /*-------------------------------------mobile-respnse-----------------------------------------------------*/
@@ -81,6 +82,7 @@ img{
     background-color: #ddd;
     left: 0;
     top: 10px;
+    margin-top: 0px;
   }
   #navbar {
     padding: 44px 0px;
@@ -94,16 +96,14 @@ img{
     #navbar #logo {
 
       margin-left: 0;
+      font-size: 20px;
+      color: white;
     }
-    .profile{
-      display: block;
-      top: 8px;
-      margin-left: 0px;
-      display: flex;
-      justify-content: center;
-    
+    nav{
+      text-align: center;
+      margin-right: 0px;
     }
-    
+
     
 }
 
