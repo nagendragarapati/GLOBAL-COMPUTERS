@@ -54,6 +54,11 @@
       font-weight: 500;
       color: honeydew;
     }
+    .sidenav ul li .active{
+      color: yellow;
+      transition: ease-in-out 1.5s;
+    }
+    
   
     .sidenav h1{
         color: #fff;

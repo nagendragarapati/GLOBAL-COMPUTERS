@@ -8,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+
+  activetab = "";
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  getActiveTab(tabname:string){
+    this.activetab = tabname;
+  }
+
 
 }

@@ -11,7 +11,9 @@ img{
 .full-dca{
     height: 100vh;
     background-color: #ecf3fd;
+    background-color: #fff;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 .full-dca h1{
     text-transform: capitalize;
@@ -36,7 +38,7 @@ padding: 30px;
 
 }
 .list-sec{
-    padding-left: 100px;
+    padding-left: 50px;
     margin-bottom: 50px;
 
 }
@@ -62,4 +64,7 @@ padding: 30px;
     padding: 20px;
 
 
+}
+.joy-imgsec p{
+    padding-left: 50px;
 }

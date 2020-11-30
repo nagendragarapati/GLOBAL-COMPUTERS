@@ -27,27 +27,25 @@ img{
 .container-sec{
     width: 100%;
     display: flex;
-    margin: 1px auto;
+    margin: auto;
     
 }
 .containercards-sec{
     padding: 0px 5%;
-    background-color: #ecf5fc;
     background-color: #fff;
 
 }
 .containercards-sec h1{
-    text-align: center;
     padding: 10px;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    color: rgb(2, 50, 66);
 }
 .cards{
-    height: 350px;
+    height: 390px;
     width: 280px;
     border-radius: 10px;
-    margin: 100px auto 20px auto;
+    margin: 50px auto 20px auto;
     position: relative;
     box-shadow: inset 5px 5px 5px rgba(0,0,0,.2),
                 inset -5px -5px 15px rgba(255,255,255,.1),
@@ -55,74 +53,44 @@ img{
                 -5px -5px 15px rgba(255,255,255,.1);
                 cursor: pointer;
                 transition: 0.5s;
-                background: linear-gradient(rgba(39, 107, 235,0.7),rgba(0,0,0));
-                background-position: center;
+                background:url(../../assets/images/back1.jpg);
                 background-size: cover;
             
 }
-.cards:hover .img-sec{
-    padding: 0px;
-    transition: 0.5s;
-    font-size: 15px;
-}
-.cards:hover .img-sec h1{
-    font-size: 20px;
-    transition: 0.5s;
-    font-weight: bold;
 
-}
-
-.img-sec{
-    height: 120px;
-    width: 180px;
-    border-radius: 10px;
-    position: absolute;
-    top: -50px;
-    margin-left: 50px;
-    box-shadow: inset 5px 5px 5px rgba(0,0,0,.2),
-    inset -5px -5px 15px rgba(255,255,255,.1),
-    5px 5px 15px rgba(0,0,0,.3),
-    -5px -5px 15px rgba(255,255,255,.1);
-    padding: 10px;
-    background: linear-gradient(rgba(42, 42, 43, 0.7),rgba(0,0,0));
-    transition: 0.5s;
-}
-.img-sec img{
-    height: 120px;
-    width: 180px;
-    border-radius: 10px;
-}
-.img-sec h1{
-    text-transform: uppercase;
-    font-size: 18px;
-    text-align: center;
-    font-family: revert;
-    padding: 12px;
-    transition: 0.5s;
-
-}
 .content-sec{
-    padding-top: 120px;
+    width: 280px;
+    background-color: rgba(0,0,0,.6);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .content-sec ul{
-
     padding-left: 50px;
 }
+.ms:hover{
+    color: white;
+    transition: .4s;
+}
 .content-sec ul li{
-    color: #fff;
+    color: white;
     list-style-type: circle;
-    line-height: 2.5;
+    line-height: 3.5;
     text-transform: capitalize;
     font-size: 14px;
-    padding: 3px;    
+    padding: 3px;  
+    font-weight: 600;
 }
 .view{
-    color: blue;
+    color: rgb(6, 124, 235);
     text-transform: capitalize;
     font-size: 15px;
 }
-
-
+.logos p{
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+}
 
 
 @media only screen and (max-width:992px){

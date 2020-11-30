@@ -5,19 +5,13 @@ window.scrollTo(0,440);
 }
 
 
-function vanish(){
-  var x = document.getElementById("panel");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+function vanishPage(){
+  if (document.getElementById("navbarNav").style.display === "block") {
+    document.getElementById("navbarNav").style.display = "none";
 
   }
+  
 }
-
-$(document).ready(function(){
-  $("#flip").click(function(){
-    $("#panel").slideToggle("slow");
-  });
-});
 
 
 window.onscroll = function() {scrollFunction()};
@@ -28,7 +22,7 @@ function scrollFunction() {
     document.getElementById("logo").style.fontSize = "20px";
   } else {
     document.getElementById("navbar").style.padding = "44px 10px";
-    document.getElementById("logo").style.fontSize = "20px";
+    document.getElementById("logo").style.fontSize = "26px";
   }
 }
 

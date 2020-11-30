@@ -1,4 +1,50 @@
+<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
 
+
+  <div class="container">
+
+    <a class="navbar-brand" id="logo">Globel Computers</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/Home" onclick="vanishPage()" (click)="getActiveTab('Home')"
+            [class.active]="activetab === 'Home'">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/Courses" onclick="vanishPage()" (click)="getActiveTab('Courses')"
+            [class.active]="activetab === 'Courses'">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/Contact" onclick="vanishPage()" (click)="getActiveTab('Contact')"
+            [class.active]="activetab === 'Contact'">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/Login" onclick="vanishPage()" (click)="getActiveTab('Login')"
+            [class.active]="activetab === 'Login'">Login</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+<!--
 <div id="navbar">
     <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 logo d-flex justify-content-between">
@@ -8,21 +54,18 @@
 
     <div class="col-xs-0 col-sm-0 col-md-0 col-lg-9 navbar-right" id="panel">
       <nav>
-        <a routerLink="/Home" onclick="vanish()">Home</a>
-        <a routerLink="/Courses" onclick="vanish()" >Courses</a>
-        <a routerLink="/Contact" onclick="vanish()" >Contact</a>
-        <a routerLink="/Login" onclick="vanish()" class="profile">Login</a>
+        <a routerLink="/Home" onclick="vanishPage()" (click)="getActiveTab('Home')"
+        [class.active]="activetab === 'Home'">Home</a>
+        <a routerLink="/Courses" onclick="vanishPage()" (click)="getActiveTab('Courses')"
+        [class.active]="activetab === 'Courses'" >Courses</a>
+        <a routerLink="/Contact" onclick="vanishPage()" (click)="getActiveTab('Contact')"
+        [class.active]="activetab === 'Contact'" >Contact</a>
+        <a routerLink="/Login" onclick="vanishPage()" (click)="getActiveTab('Login')"
+        [class.active]="activetab === 'Login'">Login</a>
       </nav>
 
         
 </div>
 </div>
   </div>
-  
-
-  
-
-
-
-
-
+  -->

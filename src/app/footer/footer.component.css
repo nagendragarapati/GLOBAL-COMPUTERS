@@ -71,6 +71,11 @@ padding-top: 10px;
 span{
     color: rgb(6, 61, 245);
 }
+.menu ul li .active{
+	color: darkturquoise;
+	transition: ease-in-out 1.5s;
+}
+
 
 /*------------------------------------------------------------------------------*/
 

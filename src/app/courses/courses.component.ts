@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CoursesComponent implements OnInit {
 
+  activetab = "Dca";
+  
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  
+  getActiveTab(tabname:string){
+    this.activetab = tabname;
+  }
+
 }
+
+
+
