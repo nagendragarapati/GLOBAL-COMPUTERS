@@ -36,23 +36,25 @@ img{
 
 }
 .containercards-sec h1{
-    padding: 10px;
-    text-transform: uppercase;
+    text-transform:capitalize;
     font-weight: bold;
     color: rgb(2, 50, 66);
+    font-family: bree serif;
+    font-size: 25px;
+    border-bottom: 3px solid deepskyblue;
+    width: 200px;
+    margin: auto;
+
 }
 .cards{
     height: 390px;
     width: 280px;
     border-radius: 10px;
-    margin: 50px auto 20px auto;
-    position: relative;
+    margin: 30px auto 20px auto;
     box-shadow: inset 5px 5px 5px rgba(0,0,0,.2),
                 inset -5px -5px 15px rgba(255,255,255,.1),
                 5px 5px 15px rgba(0,0,0,.3),
                 -5px -5px 15px rgba(255,255,255,.1);
-                cursor: pointer;
-                transition: 0.5s;
                 background:url(../../assets/images/back1.jpg);
                 background-size: cover;
             
@@ -61,16 +63,14 @@ img{
 .content-sec{
     width: 280px;
     background-color: rgba(0,0,0,.6);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    font-family: roboto;
+ 
+    border-radius: 10px;
 }
 .content-sec ul{
     padding-left: 50px;
 }
-.ms:hover{
-    color: white;
-    transition: .4s;
-}
+
 .content-sec ul li{
     color: white;
     list-style-type: circle;
@@ -78,18 +78,21 @@ img{
     text-transform: capitalize;
     font-size: 14px;
     padding: 3px;  
-    font-weight: 600;
+    font-weight: 200;
 }
-.view{
-    color: rgb(6, 124, 235);
-    text-transform: capitalize;
-    font-size: 15px;
-}
+
 .logos p{
     text-align: center;
     color: #fff;
     text-transform: capitalize;
     font-size: 30px;
+    font-family: bree serif;
+}
+.btn-infos{
+    border: none;
+    color: rgb(208, 224, 245);
+    background-image: radial-gradient(rgb(16, 93, 138),rgb(9, 3, 99));
+    font-family: bree serif;
 }
 
 

@@ -6,7 +6,7 @@
 .contact-sec{
     height: 100%;
     width: 100%;
-    background-color: rgb(191, 222, 250);
+    background-color: rgba(149, 200, 245, 0.521);
     margin-top: 137px;
 
 
@@ -30,7 +30,10 @@ line-height: 27px;
     color: #fff;
     background-color: black;
     border-radius: 10px;
-    margin-top: 30px;}
+    margin-top: 30px;
+    cursor: text;
+
+}
 .address p{
 margin-top: 8px;
 margin-left: 31px;
@@ -68,9 +71,6 @@ width: 50%;
 .contactform input[type=submit]{
     margin: 30px auto;
     padding: 5px 30px;
-}
-.form-sec{
-    background-color: blue;
 }
 
 

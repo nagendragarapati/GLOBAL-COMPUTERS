@@ -1,5 +1,4 @@
 
-
 img{
   max-width: 100%;
   height: auto;
@@ -7,6 +6,7 @@ img{
 
 #navbar {
   background-color: #183b56;
+  background-image: radial-gradient(rgb(3, 35, 56),#183b56);
   padding: 44px 10px;
   transition: 0.4s;
   position: fixed;
@@ -19,6 +19,7 @@ img{
   font-size: 17px;
   text-align: center;
   margin-left: 20px;
+  font-family: bree serif;
 
 }
 
@@ -40,7 +41,7 @@ img{
     transform: scaleX(1);
 }
 #navbarNav ul li .active{
-	color: darkturquoise;
+	color: deepskyblue;
 	transition: ease-in-out 1.5s;
 }
 

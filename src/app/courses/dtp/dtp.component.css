@@ -10,7 +10,7 @@ img{
 
 .full-dtp{
     height: 100vh;
-    background-color: #ecf3fd;
+    background-color: #fff;
     overflow-y: scroll;
 }
 .full-dtp h1{
@@ -36,7 +36,7 @@ padding: 30px;
 
 }
 .list-sec{
-    padding-left: 100px;
+    padding-left: 50px;
     margin-bottom: 50px;
 
 }
