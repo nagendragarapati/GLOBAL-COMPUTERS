@@ -41,9 +41,7 @@ img{
     color: rgb(2, 50, 66);
     font-family: bree serif;
     font-size: 25px;
-    border-bottom: 3px solid deepskyblue;
-    width: 200px;
-    margin: auto;
+    text-align: center;
 
 }
 .cards{
